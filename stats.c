@@ -36,7 +36,17 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+ unsigned char median = find_median(test);
+ unsigned char mean = find_mean(test);
+ unsigned char max = find_maximum(test);
+ unsigned char min = find_minimum(test);
+ unsigned char sorting = sort_array(test);
+ 
   /* Statistics and Printing Functions Go Here */
+ unsigned char arr = print_array(test);
+ unsigned char stat = print_statistics(test);
+ 
+ 
 
 }
 

@@ -24,17 +24,28 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief <This will give the statistics of the given array>
  *
- * <Add Extended Description Here>
+ * <This function will give the overall statistics of the array input given from the other functions>
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+ * @param <print_statistics(char)> <the stats to be printed>
+ * @param <print_array(char)> <the input array given to be printed>
+ * @param <find_median(char)> <This will find the median >
+ * @param <find_mean(char)> <this will find the mean value from the input array>
+ * @param <find_maximum(char)> <This will find the maximum value in the array>
+ * @param <find_minimum(char)> <This will find the minimum value in the array>
+ * @param <sort_array(char)> <This will sort the values in the array in the desending order>
+ 
+ * @return <All these values will be returned and will be printed in the statistics function>
  */
+ 
+ char print_statistics(char){}
+ char print_array(char){}
+ char find_median(char){}
+ char find_mean(char){}
+ char find_maximum(char){}
+ char find_minimum(char){}
+ char sort_array(char){}
 
 
 #endif /* __STATS_H__ */
