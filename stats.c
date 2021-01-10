@@ -34,19 +34,23 @@ void main() {
                               200, 122, 150, 90,   92,  87, 177, 244,
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
+  unsigned char samp[SIZE];                              
+  for (int i = 0 ; i < SIZE ; i++){
+     samp[i] = test[i];
+  }
 
   /* Other Variable Declarations Go Here */
- unsigned char median = find_median(test);
- unsigned char mean = find_mean(test);
- unsigned char max = find_maximum(test);
- unsigned char min = find_minimum(test);
- unsigned char sorting = sort_array(test);
+ float median = find_median(samp,SIZE);
+ float mean = find_mean(samp,SIZE);
+ int max = find_maximum(samp,SIZE);
+ int min = find_minimum(samp,SIZE);
+ //unsigned char sorting[SIZE] = 
+ sort_array(samp,SIZE);
+ 
  
   /* Statistics and Printing Functions Go Here */
- unsigned char arr = print_array(test);
- unsigned char stat = print_statistics(test);
- 
- 
+ print_array(test,SIZE); /* Calling function to print the array */
+ print_statistics(SIZE,min,max,mean,median);
 
 }
 
